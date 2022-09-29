@@ -51,7 +51,7 @@ class Simpsons extends React.Component {
           </div>
           <img
             src={CharacterImage}
-            className="Character-image position-absolute top-50 start-100 translate-middle"
+            className="Character-image position-absolute"
             alt="character"
           />
         </div>

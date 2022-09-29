@@ -21,6 +21,8 @@
 
 .Character-image {
   max-height: 40vh;
+  right: -100px;
+  bottom: 0;
 }
 
 #quote-box {
@@ -80,10 +82,13 @@
   .main-section {
     max-width: 60vw;
     max-height: 50vh;
+    margin-top: 0;
   }
 
   .Character-image {
     max-height: 25vh;
+    right: -55px;
+
   }
 
   #text {
@@ -92,6 +97,7 @@
 
   #author {
     font-size: 0.6rem;
+    margin-bottom: 10px;
   }
 
   #new-quote {
