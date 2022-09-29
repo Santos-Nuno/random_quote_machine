@@ -1,38 +1,109 @@
+.font-link {
+  font-family: 'Indie Flower', cursive;
+}
+
 .App {
+  position: relative;
   text-align: center;
+  background-color: #2f64d6;
+  height: 100vh;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  max-width: 50vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.main-section {
+  max-width: 60vw;
+  margin-top: 40px;
+  max-height: 50vh;
+}
+
+.Character-image {
+  max-height: 40vh;
+}
+
+#quote-box {
+  max-width: 45vw;
+}
+
+#text {
+  font-size: 2rem;
+  color: #ffdf00;
+}
+
+#author {
+  font-size: 1.5rem;
+  color: #ffdf00;
+  margin-bottom: 50px;
+}
+
+#new-quote {
+  left: 0;
+  width: 15vw;
+  background-color: black;
+  border: 2px solid black;
+  color: #ffdf00;
+  font-size: 1.2rem;
+}
+
+#new-quote:hover {
+  background-color: #ffdf00;
+  border: 2px solid #ffdf00;
+  color: black;
+}
+
+#tweet-quote {
+  text-decoration: none;
+  right: 0;
+  background-color: black;
+}
+
+.button-tweet {
+  color: #ffdf00;
+  width: 15vw;
+  font-size: 1.2rem;
+  border: 2px solid black;
+}
+
+#tweet-quote:hover {
+  background-color: #ffdf00;
+  border: 2px solid #ffdf00;
+  color: black;
+}
+
+@media (max-width: 650px) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    max-width: 40vh;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .main-section {
+    max-width: 60vw;
+    max-height: 50vh;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Character-image {
+    max-height: 25vh;
+  }
+
+  #text {
+    font-size: 1rem;
+  }
+
+  #author {
+    font-size: 0.6rem;
+  }
+
+  #new-quote {
+    width: 20vw;
+    font-size: 0.5rem;
+    border: 1px solid #ffdf00;
+  }
+
+  .button-tweet {
+    color: #ffdf00;
+    width: 20vw;
+    border: 1px solid #ffdf00;
+    font-size: 0.5rem;
   }
 }
